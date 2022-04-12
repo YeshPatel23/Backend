@@ -23,6 +23,11 @@ const Place = mongoose.model("Place", {
     required: true,
     trim: true,
   },
+  image: {
+    type: String,
+    required: true,
+    trim: true,
+  },
 });
 
 module.exports = Place;
